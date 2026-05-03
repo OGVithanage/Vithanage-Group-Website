@@ -1,6 +1,10 @@
+import HomePage from "./homePage"
+
 function App() {
   return (
-    <h1>Index app</h1>
+    <div className="w-full h-screen bg-background">
+      <HomePage />
+    </div>
   )
 }
 
