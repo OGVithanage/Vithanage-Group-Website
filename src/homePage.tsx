@@ -1,11 +1,10 @@
-import Header from "./components/header";
 import Aurora from "./components/Aurora/Aurora";
+import Footer from "./components/footer";
 
 function HomePage() {
     return(
         <div>
             <div className="w-screen h-screen flex flex-col">
-                <Header />
                 <div className="flex-1 p-10">
                     <div className="w-full h-full bg-red-900 rounded-3xl overflow-hidden relative flex items-center justify-center">
                         <div className="absolute inset-0">
@@ -17,7 +16,7 @@ function HomePage() {
                             />
                         </div>
                         <div className="relative z-10 w-[55%]">
-                            <h1 className="text-white text-5xl font-extrabold text-center">The Solution for your largest IT Dreams, Powered by AI.</h1>
+                            <h1 className="text-white text-5xl font-extrabold text-center">The Solution for your largest IT Solutions Dream, Powered by AI.</h1>
                             <div className="flex items-center justify-center mt-10">
                                 <button className="text-l text-red-900 ml-5 cursor-pointer w-30 h-10 bg-white rounded-3xl font-semibold">Contact Us</button>
                                 <button className="text-l text-white ml-5 cursor-pointer w-30 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-colors">About Us</button>
@@ -25,6 +24,7 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
