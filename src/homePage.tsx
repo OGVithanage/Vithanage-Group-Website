@@ -17,7 +17,7 @@ function HomePage() {
                             />
                         </div>
                         <div className="relative z-10 w-[55%]">
-                            <h1 className="text-white text-5xl font-extrabold text-center">The Solution for your largest IT Solutions Dream, Powered by AI.</h1>
+                            <h1 className="text-white text-5xl font-extrabold text-center">The Solution for your largest IT Dream, Powered by AI.</h1>
                             <div className="flex items-center justify-center mt-10">
                                 <Link to="/contact">
                                     <button className="text-l text-red-900 ml-5 cursor-pointer w-30 h-10 bg-white rounded-3xl font-semibold">Contact Us</button>
