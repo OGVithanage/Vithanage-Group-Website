@@ -1,5 +1,6 @@
 import Aurora from "./components/Aurora/Aurora";
 import Footer from "./components/footer";
+import { Link } from "react-router-dom";
 
 function HomePage() {
     return(
@@ -18,7 +19,9 @@ function HomePage() {
                         <div className="relative z-10 w-[55%]">
                             <h1 className="text-white text-5xl font-extrabold text-center">The Solution for your largest IT Solutions Dream, Powered by AI.</h1>
                             <div className="flex items-center justify-center mt-10">
-                                <button className="text-l text-red-900 ml-5 cursor-pointer w-30 h-10 bg-white rounded-3xl font-semibold">Contact Us</button>
+                                <Link to="/contact">
+                                    <button className="text-l text-red-900 ml-5 cursor-pointer w-30 h-10 bg-white rounded-3xl font-semibold">Contact Us</button>
+                                </Link>
                                 <button className="text-l text-white ml-5 cursor-pointer w-30 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-colors">About Us</button>
                             </div>
                         </div>
