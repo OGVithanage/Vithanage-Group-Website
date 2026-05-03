@@ -4,6 +4,7 @@ import ContactPage from "./contactPage";
 import PrivacyPolicy from "./privacyPolicy";
 import TermsAndConditions from "./termsAndConditions";
 import RefundPolicy from "./refundPolicy";
+import AboutPage from "./aboutPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="w-full h-screen bg-background">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />

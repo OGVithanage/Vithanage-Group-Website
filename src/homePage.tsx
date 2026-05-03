@@ -22,7 +22,9 @@ function HomePage() {
                                 <Link to="/contact">
                                     <button className="text-l text-red-900 ml-5 cursor-pointer w-30 h-10 bg-white rounded-3xl font-semibold">Contact Us</button>
                                 </Link>
-                                <button className="text-l text-white ml-5 cursor-pointer w-30 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-colors">About Us</button>
+                                <Link to="/about">
+                                    <button className="text-l text-white ml-5 cursor-pointer w-30 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-colors">About Us</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
