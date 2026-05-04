@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="w-full py-6 px-10 flex items-center justify-between border-t border-ring/10">
+        <footer className="w-full py-6 px-10 flex items-center justify-between border-t border-ring/10 bg-background">
             <div className="flex items-center gap-3">
                 <Link to="/" className="flex items-center gap-3">
                     <img src="/VPay_logo_White.svg" alt="Vithanage Group Logo" className="w-8 h-8 invert dark:invert-0" />

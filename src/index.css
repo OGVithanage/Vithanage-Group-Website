@@ -35,6 +35,12 @@
     --color-sidebar-ring: #525252;
 }
 
+html, body {
+    background-color: #131315;
+    margin: 0;
+    padding: 0;
+}
+
 @keyframes br-spin {
     from {
         transform: rotate(0deg);

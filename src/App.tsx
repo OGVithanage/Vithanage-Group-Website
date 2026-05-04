@@ -9,7 +9,7 @@ import AboutPage from "./aboutPage";
 function App() {
   return (
     <Router>
-      <div className="w-full h-screen bg-background">
+      <div className="w-full min-h-screen bg-background">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
