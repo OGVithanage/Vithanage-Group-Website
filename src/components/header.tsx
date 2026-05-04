@@ -4,7 +4,7 @@ function Header() {
     return(
         <div className="w-full h-17 bg-background flex items-center px-6 md:px-15 justify-between">
             <Link to="/">
-                <img src="/VPay_logo_White.svg" className="w-8 h-8 md:w-10 md:h-10" alt="Logo" />
+                <img src="/VPay_logo_White.svg" className="w-8 h-8 md:w-10 md:h-10 brightness-0 invert" alt="Logo" />
             </Link>
             <div className="flex flex-row items-center">
                 <div className="hidden md:flex flex-row items-center">

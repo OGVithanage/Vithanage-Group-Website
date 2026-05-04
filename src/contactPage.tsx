@@ -13,6 +13,12 @@ const ContactPage = () => {
                     >
                         0472264926
                     </a>
+                    <a 
+                        href="mailto:groupvithanagesl@gmail.com" 
+                        className="text-xl md:text-3xl font-medium mt-4 hover:text-white/80 transition-colors break-all"
+                    >
+                        groupvithanagesl@gmail.com
+                    </a>
                     <div className="mt-8 md:mt-12 w-20 md:w-24 h-1 bg-white/30 rounded-full"></div>
                 </div>
             </main>

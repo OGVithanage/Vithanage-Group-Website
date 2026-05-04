@@ -104,7 +104,7 @@ function HomePage() {
                     </div>
                     <div className="relative z-10 w-[90%] md:w-[55%] px-4">
                         <h1 className="text-white text-3xl md:text-5xl font-extrabold text-center leading-tight">
-                            The Solution for your largest IT Dream, Powered by AI.
+                            The Solution for your largest IT Dreams, Powered by AI.
                         </h1>
                         <div className="flex flex-col md:flex-row items-center justify-center mt-6 md:mt-10 gap-4">
                             <Link to="/contact">

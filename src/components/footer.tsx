@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="w-full py-6 px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-6 border-t border-ring/10 bg-background">
             <div className="flex items-center gap-3">
                 <Link to="/" className="flex items-center gap-3">
-                    <img src="/VPay_logo_White.svg" alt="Vithanage Group Logo" className="w-8 h-8 invert dark:invert-0" />
+                    <img src="/VPay_logo_White.svg" alt="Vithanage Group Logo" className="w-8 h-8" />
                     <span className="text-lg md:text-xl font-bold text-foreground">Vithanage Group</span>
                 </Link>
             </div>
