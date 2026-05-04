@@ -130,7 +130,7 @@ function HomePage() {
                         {products.map((product, index) => (
                             <div 
                                 key={index} 
-                                ref={el => cardRefs.current[index] = el}
+                                ref={(el) => { cardRefs.current[index] = el; }}
                                 className="bg-white/5 border border-white/10 p-8 rounded-3xl hover:bg-white/10 transition-all group flex flex-col justify-between h-64"
                             >
                                 <div>
@@ -154,7 +154,7 @@ function HomePage() {
             {/* GSAP Modal/Popout Overlay */}
             <div 
                 ref={modalRef}
-                className="fixed z-[100] bg-[#1a1a1c] border border-white/10 hidden overflow-hidden flex-col items-center justify-start p-6 md:p-20 overflow-y-auto"
+                className="fixed z-100 bg-[#1a1a1c] border border-white/10 hidden overflow-hidden flex-col items-center justify-start p-6 md:p-20 overflow-y-auto"
                 style={{ position: 'fixed' }}
             >
                 <div ref={modalContentRef} className="w-full max-w-4xl flex flex-col items-center">
