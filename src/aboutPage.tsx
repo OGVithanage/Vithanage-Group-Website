@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 const AboutPage = () => {
     return (
         <div className="w-screen min-h-screen flex flex-col bg-background">
-            <main className="flex-1 p-10 flex flex-col items-center">
+            <main className="flex-1 p-6 md:p-10 flex flex-col items-center">
                 <div className="max-w-4xl w-full">
-                    <div className="mb-10">
+                    <div className="mb-6 md:mb-10">
                         <Link to="/" className="text-foreground/60 hover:text-foreground flex items-center gap-2 transition-colors">
                             <span>← Back to Home</span>
                         </Link>
                     </div>
 
-                    <div className="bg-red-900 rounded-3xl p-12 text-white shadow-2xl mb-10">
-                        <h1 className="text-5xl font-extrabold mb-6">About Vithanage Group</h1>
-                        <p className="text-xl leading-relaxed mb-6">
+                    <div className="bg-red-900 rounded-3xl p-8 md:p-12 text-white shadow-2xl mb-8 md:mb-10">
+                        <h1 className="text-3xl md:text-5xl font-extrabold mb-4 md:mb-6 leading-tight">About Vithanage Group</h1>
+                        <p className="text-lg md:text-xl leading-relaxed">
                             At Vithanage Group, we are pioneers at the intersection of imagination and technology. 
                             Our mission is to bridge the gap between complex IT challenges and elegant, 
                             AI-driven solutions that empower businesses to dream bigger.
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                         <div className="bg-card p-8 rounded-3xl border border-ring/10 shadow-sm">
                             <h2 className="text-2xl font-bold mb-4 text-foreground">Our Vision</h2>
                             <p className="text-foreground/80 leading-relaxed">

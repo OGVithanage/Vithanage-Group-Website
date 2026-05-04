@@ -92,7 +92,7 @@ function HomePage() {
     return (
         <div className="relative bg-background">
             {/* Sticky Hero Section */}
-            <div className="sticky top-0 h-screen w-full overflow-hidden flex flex-col pt-10 px-10 pb-28">
+            <div className="sticky top-0 h-[85vh] md:h-screen w-full overflow-hidden flex flex-col pt-6 md:pt-10 px-4 md:px-10 pb-20 md:pb-28">
                 <div className="w-full h-full bg-red-900 rounded-3xl overflow-hidden relative flex items-center justify-center">
                     <div className="absolute inset-0">
                         <Aurora
@@ -102,18 +102,18 @@ function HomePage() {
                             speed={0.5}
                         />
                     </div>
-                    <div className="relative z-10 w-[55%]">
-                        <h1 className="text-white text-5xl font-extrabold text-center leading-tight">
+                    <div className="relative z-10 w-[90%] md:w-[55%] px-4">
+                        <h1 className="text-white text-3xl md:text-5xl font-extrabold text-center leading-tight">
                             The Solution for your largest IT Dream, Powered by AI.
                         </h1>
-                        <div className="flex items-center justify-center mt-10">
+                        <div className="flex flex-col md:flex-row items-center justify-center mt-6 md:mt-10 gap-4">
                             <Link to="/contact">
-                                <button className="text-l text-red-900 ml-5 cursor-pointer w-32 h-10 bg-white rounded-3xl font-semibold hover:bg-opacity-90 transition-all">
+                                <button className="text-sm md:text-l text-red-900 cursor-pointer w-32 h-10 bg-white rounded-3xl font-semibold hover:bg-opacity-90 transition-all">
                                     Contact Us
                                 </button>
                             </Link>
                             <Link to="/about">
-                                <button className="text-l text-white ml-5 cursor-pointer w-32 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-all">
+                                <button className="text-sm md:text-l text-white cursor-pointer w-32 h-10 rounded-3xl border border-white/50 hover:bg-white/10 transition-all">
                                     About Us
                                 </button>
                             </Link>
@@ -123,10 +123,10 @@ function HomePage() {
             </div>
 
             {/* Product Section Reveal */}
-            <div className="relative z-20 bg-background pt-20 pb-40">
-                <div className="max-w-7xl mx-auto px-10">
-                    <h2 className="text-4xl font-bold text-white mb-16 text-center">Our Solutions</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="relative z-20 bg-background pt-10 md:pt-20 pb-40">
+                <div className="max-w-7xl mx-auto px-6 md:px-10">
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 md:text-center">Our Solutions</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
                         {products.map((product, index) => (
                             <div 
                                 key={index} 
